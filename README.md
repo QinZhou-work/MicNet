@@ -22,7 +22,7 @@ pip install -r MicNet_requirements.txt
 # User Guideline
 - [ ] [Spatial transcriptomic data pre-processing](https://github.com/QinZhou-work/MicNet/blob/e4ac5aa9e607da442090578b82b49adce9bfbf87/tutorial/MicNet_1_data_check_and_preprocessing.ipynb)
 
-- [ ] [Training MicNet](https://github.com/QinZhou-work/MicNet/blob/85753a5119a4408fee0b36788af57337d6ecb291/tutorial/MicNet_2_build_%26_train_MicNet_breast_cancer.ipynb)
+- [ ] [Training MicNet](https://github.com/QinZhou-work/MicNet/blob/d13bc1ee6cffa0fa837f6a5ccafcc77cd9ce693e/tutorial/MicNet_2_train_MicNet.ipynb)
 
-- [ ] [Inference MicNet](https://github.com/QinZhou-work/MicNet/blob/6cd8083b83ec18eee1971d0a313a919a31ccd83b/tutorial/MicNet_3_inference.ipynb)
+- [ ] [Inference MicNet](https://github.com/QinZhou-work/MicNet/blob/d13bc1ee6cffa0fa837f6a5ccafcc77cd9ce693e/tutorial/MicNet_3_Inference.ipynb)
 
