@@ -12,8 +12,6 @@ Exploring the spatial organization of cells alongside their gene expression is k
 </div>
 # Installation
 MicNet works with Python 3.6.10 Please make sure you have the correct verion of Python.  
-- (Need to test if other Python versions are compatible.)
-- (Update the requirements file accordingly.)
 
 ```
 conda create -n "MicNet" python=3.6.10
@@ -22,3 +20,9 @@ pip install -r MicNet_requirements.txt
 ```
 
 # User Guideline
+- [ ] [Spatial transcriptomic data pre-processing](https://github.com/QinZhou-work/MicNet/blob/e4ac5aa9e607da442090578b82b49adce9bfbf87/tutorial/MicNet_1_data_check_and_preprocessing.ipynb)
+
+- [ ] [Training MicNet](https://github.com/QinZhou-work/MicNet/blob/85753a5119a4408fee0b36788af57337d6ecb291/tutorial/MicNet_2_build_%26_train_MicNet_breast_cancer.ipynb)
+
+- [ ] [Inference MicNet](https://github.com/QinZhou-work/MicNet/blob/6cd8083b83ec18eee1971d0a313a919a31ccd83b/tutorial/MicNet_3_inference.ipynb)
+
