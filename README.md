@@ -26,5 +26,5 @@ pip install -r MicNet_requirements.txt
 
 - [ ] [Inference MicNet](https://github.com/QinZhou-work/MicNet/blob/f3324491b3dc150e10969607dfc755ef122239b9/tutorial/MicNet_3_Inference.ipynb)
       
-- [ ] [Clustering the domains](https://github.com/QinZhou-work/MicNet/blob/464a7f6974ca83b80a688c73a8075c21bc498664/tutorial/MicNet_4_clustering_with_MicNet.ipynb)
+- [ ] [Clustering the domains](https://github.com/QinZhou-work/MicNet/blob/93805f9c47b349e579ff31d8f86b6a987fe8bfb8/tutorial/MicNet_4_clustering_with_MicNet.ipynb)
 
