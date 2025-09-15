@@ -22,7 +22,9 @@ pip install -r MicNet_requirements.txt
 # User Guideline
 - [ ] [Spatial transcriptomic data pre-processing](https://github.com/QinZhou-work/MicNet/blob/e4ac5aa9e607da442090578b82b49adce9bfbf87/tutorial/MicNet_1_data_check_and_preprocessing.ipynb)
 
-- [ ] [Training MicNet](https://github.com/QinZhou-work/MicNet/blob/d13bc1ee6cffa0fa837f6a5ccafcc77cd9ce693e/tutorial/MicNet_2_train_MicNet.ipynb)
+- [ ] [Training MicNet](https://github.com/QinZhou-work/MicNet/blob/f3324491b3dc150e10969607dfc755ef122239b9/tutorial/MicNet_2_train_MicNet.ipynb)
 
-- [ ] [Inference MicNet](https://github.com/QinZhou-work/MicNet/blob/d13bc1ee6cffa0fa837f6a5ccafcc77cd9ce693e/tutorial/MicNet_3_Inference.ipynb)
+- [ ] [Inference MicNet](https://github.com/QinZhou-work/MicNet/blob/f3324491b3dc150e10969607dfc755ef122239b9/tutorial/MicNet_3_Inference.ipynb)
+      
+- [ ] [Clustering the domains](https://github.com/QinZhou-work/MicNet/blob/f3324491b3dc150e10969607dfc755ef122239b9/tutorial/MicNet_4_clustering_with_MicNet.ipynb)
 
