@@ -11,7 +11,6 @@ Exploring the spatial organization of cells alongside their gene expression is k
   <img src="https://github.com/QinZhou-work/MicNet/blob/8196b806a4f8179e8d4d838c8d23649ad5bc8e09/Pictures/MicNet_figures.png?inline=True" alt="Alt text" width="90%"/>
 </div>
 # Installation
-MicNet works with Python 3.6.10 Please make sure you have the correct verion of Python.  
 
 ```
 conda create -n "MicNet" python=3.6.10
