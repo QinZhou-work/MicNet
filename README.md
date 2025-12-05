@@ -1,4 +1,4 @@
-<img src="https://github.com/QinZhou-work/MicNet/blob/53d36fc3b68835ceb8aa94c17664171aad5e1576/Pictures/qbrc_logo.png?inline=false" width="40%"/>
+<img src="https://github.com/QinZhou-work/MicNet/blob/586e71edd32e02bfab2a778df043a35b3c6042ee/assets/qbrc_logo.png?inline=false" width="40%"/>
 
 
 # MicNet
@@ -8,7 +8,7 @@ MicNet: Integrating spatially resolved transcriptomes and pathology images by co
 Exploring the spatial organization of cells alongside their gene expression is key to understanding how tissues acquire distinct structures and functions. Recent advances in spatial transcriptomics (SRT) technologies have enabled the joint profiling of tissue morphology and mRNA expression, yet integrating these two modalities remains a major challenge. To address this, we developed MicNet, an unsupervised deep learning framework that bridges histology images and transcriptomic data, providing robust, scalable, and biologically meaningful representations for spatial domain identification and downstream analyses.
 
 <div align="center">
-  <img src="https://github.com/QinZhou-work/MicNet/blob/8196b806a4f8179e8d4d838c8d23649ad5bc8e09/Pictures/MicNet_figures.png?inline=True" alt="Alt text" width="90%"/>
+  <img src="https://github.com/QinZhou-work/MicNet/blob/586e71edd32e02bfab2a778df043a35b3c6042ee/assets/MicNet_figures.png?inline=True" alt="Alt text" width="90%"/>
 </div>
 
 ## Dependencies
@@ -69,10 +69,10 @@ python main.py
 | image_file | image file location | ./example_data/Visium_FFPE_Human_Breast_Cancer_image.tif |
 | count_file | count file location | ./example_data/Counts.txt|
 | transformation_file| spot meta data location | ./example_data/Spot_metadata.csv |
-| trained_breast_model_save_path | the path to save the intermediate trained models | ./output/trained_models |
+| trained_breast_model_save_path | the path to save the intermediate trained models | ./Models/epoch_best_breast.pt |
 | epoch_trained | the number of the trained | 50 |
 | is_save_trained | whether or not to save the trained models. 1 or 0 | 0 (not saved) |
-| final_result | the output result folder of feature extraction | ./final_result |
+| final_result | the output result folder of feature extraction | ./output |
 | device | Only GPU card supported | cuda:0 |
 
 ## Input File
@@ -112,10 +112,11 @@ python validate.py
 - MicNet: ARI=0.5381, AMI=0.4611
 - A png figure 'validation.png' as below
 
-<img src="./assets/validation.png" width="90%"/>
+<img src="https://github.com/QinZhou-work/MicNet/blob/586e71edd32e02bfab2a778df043a35b3c6042ee/assets/validation.png" width="90%"/>
 
 
 # Manually run the code
+
 - [ ] [Spatial transcriptomic data pre-processing](https://github.com/QinZhou-work/MicNet/blob/464a7f6974ca83b80a688c73a8075c21bc498664/tutorial/MicNet_1_data_check_and_preprocessing.ipynb)
 
 - [ ] [Training MicNet](https://github.com/QinZhou-work/MicNet/blob/f3324491b3dc150e10969607dfc755ef122239b9/tutorial/MicNet_2_train_MicNet.ipynb)
