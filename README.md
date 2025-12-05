@@ -54,9 +54,9 @@ conda install -c conda-forge notebook
 
 ## User Guideline
 
-- The three input files: pathology image, count, and spot meta data files
+- The three main input files: pathology image, count, and spot location files
 
-- - Quick start using the default settings
+## Step1: Quick start using the default settings
 
 <pre>
 python main.py
@@ -86,7 +86,7 @@ python main.py
 - The trained model (intermediate): triggered by is_save_trained
 - The final model: save as output_model_path
 
-## Validation (optional)
+## Step2 Validation (optional)
 
 - Four input files: pathology image, spot meta data, feature extraction and annotation files.
 
