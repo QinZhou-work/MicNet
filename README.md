@@ -126,4 +126,4 @@ python validate.py
 - [ ] [Clustering the domains](https://github.com/QinZhou-work/MicNet/blob/93805f9c47b349e579ff31d8f86b6a987fe8bfb8/tutorial/MicNet_4_clustering_with_MicNet.ipynb)
 
 ### License
-Following UT Southwestern Office for Technology Development, the project is using the license from The University of Texas Southwestern Medical Center.
+The software under the Apache License 2.0
